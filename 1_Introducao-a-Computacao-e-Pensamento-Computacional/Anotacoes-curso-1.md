@@ -143,3 +143,43 @@ Estrutura condicional **Composta**:
 - Repita...até
 
 ### 2.6 - Funções
+- Similar ao conceito de função matemática (recebe um argumento e retorna um valor);
+- Subprograma, subrotina;
+- Blocos de instruções que realizam tarefas específicas;
+- Vantagens:
+    - Modularização do programa;
+    - Código mais claro e conciso;
+    - Reutilização de código.
+
+### 2.7 - Linguagens de Programação
+- Código fonte: será traduzido ou interpretado;
+- Linguagem de alto nível: mais próxima à linguagem do humano;
+- Linguagem de baixo nível: mais próxima à linguagem de máquina;
+- Linguagem de máquina: códigos binários; forma "entendível" pelo computador;
+- Tradução (compilação): geração separada da execução do programa objeto (execução mais rápida);
+- Interpretação: programa fonte executado diretamente (maior flexibilidade).
+
+### 2.8 - Paradigmas de Programação
+- Tipo de estruturação ao qual a linguagem deverá respeitar;
+- Escolha depende da tratativa definida para resolver o problema;
+- Pode oferecer técnicas apropriadas para uma aplicação específica;
+
+Principais paradigmas de programação:
+
+- Imperativo (ou Procedural)
+    - Instruções devem ser passadas na sequência em que devem ser executadas;
+    - Espécie de passo a passo dos procedimentos;
+    - Indicado para programas mais estáticos;
+    - Vantagem de ser bem eficiente mas com código de difícil legibilidade.
+
+- Funcional
+    - Destaque para o uso de funções;
+    - Problema dividido em blocos;
+    - Indicado quando a solução é dependente de uma base matemática.
+
+- Orientado à Objetos
+    - Permite uma programação multiplataforma de uma mesma 
+    maneira;
+    - Origem na necessidade de produzir programas de forma mais rápida, com maior confiabilidade e a um menor custo;
+    - Apoia-se nas características de classe e objeto;
+    - Todos os objetos tem estados e cmportamentos.
