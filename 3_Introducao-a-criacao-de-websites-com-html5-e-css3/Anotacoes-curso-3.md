@@ -18,3 +18,13 @@
 - Elemento **title**: dentro de "head"; título do site que aparece na aba do navegador;
 - Elemento **body**: no mesmo nível de "head"; conteúdo da página, visível ao usuário.
 
+## 2 - Entendendo o que é semântica
+- Em 2014, com o html5, surgiram novos elementos que têm mais significado, tornando as marcações mais fáceis de serem compreendidas;
+
+Alguns exemplos de elementos semânticos são:
+- section : seção genérica de conteúdo;
+- header : cabeçalhos (da página ou de parte da página);
+- article : conteúdo relevante dentro da página;
+- aside : conteúdo relacionado ao conteúdo principal da página;
+- footer : rodapé (da página ou de pare da página).
+
