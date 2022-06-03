@@ -54,3 +54,35 @@ Atributos do elemento **img**:
 - Elemento **ul** : unordered list ou lista não ordenada. Neste caso a ordem dos itens não é importante;
 - Elemento **ol** : ordered list ou lista ordenada. Neste caso a ordem dos itens é importante;
 - Elemento **li** : é um item da lista (tanto ul, como ol).
+
+## 6 - Introdução e conceitos básicos do CSS3
+Introdução:
+- Linguagem de estilo;
+- Cria regras de estilo para elementos ou grupo de elementos;
+- Estrutura:
+    - Seletor: "nome" do elemento html que iremos estilizar;
+    - Declarações: entre chaves, são declaradas as propriedades e seu valor.
+- Para criar regras diferentes para elementos com mesmo nome, utilizamos ID e CLASS:
+    - **ID**: no html são declarados dentro do elemento como id="nome_do_id" e no css, o nome do id precedido por um **hash**
+    - **CLASS**: no html são declaradas dentro do elemento como class="nome_da_classe" e no css, o nome da class precedido por um **ponto**.
+
+Conceitos básicos:
+- O navegador representa cada elemento html como uma caixa retangular, chamada **box model**;
+- Com o CSS é possível alterar a aparência dessa caixa;
+- O Box Model tem quatro áreas:
+    - **margin** : espaçamento entre elementos;
+    - **border** : circunda o padding;
+    - **padding** : espaçamento entre a borda e o conteúdo;
+    - **content** : retângulo interno que representa o elemento (texto, imagem, etc).
+
+## 7 - Estilizando elementos, textos e listas
+Algumas propriedades para estilizar elementos:
+
+**padding e margin** : três formas de atribuir valores
+1. Colocando **dois** valores, para as partes (nesta ordem) superior e inferior;
+2. Colocando **quatro** valores, para as partes (nesta ordem) superior, direita, inferior e esquerda;
+3. Usando as propriedades específicas para cada lado: 
+    - **padding-top**
+    - **padding-right**
+    - **padding-bottom**
+    - **padding-left**
