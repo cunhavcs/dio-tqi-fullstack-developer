@@ -60,8 +60,8 @@ Introdução:
 - Linguagem de estilo;
 - Cria regras de estilo para elementos ou grupo de elementos;
 - Estrutura:
-    - Seletor: "nome" do elemento html que iremos estilizar;
-    - Declarações: entre chaves, são declaradas as propriedades e seu valor.
+    - **Seletor:** "nome" do elemento html que iremos estilizar;
+    - **Declarações:** entre chaves, são declaradas as propriedades e seu valor.
 - Para criar regras diferentes para elementos com mesmo nome, utilizamos ID e CLASS:
     - **ID**: no html são declarados dentro do elemento como id="nome_do_id" e no css, o nome do id precedido por um **hash**
     - **CLASS**: no html são declaradas dentro do elemento como class="nome_da_classe" e no css, o nome da class precedido por um **ponto**.
@@ -78,7 +78,7 @@ Conceitos básicos:
 ## 7 - Estilizando elementos, textos e listas
 Algumas propriedades para estilizar elementos:
 
-**padding e margin** : três formas de atribuir valores
+**PADDING e MARGIN** : três formas de atribuir valores
 1. Colocando **dois** valores, para as partes (nesta ordem) superior e inferior;
 2. Colocando **quatro** valores, para as partes (nesta ordem) superior, direita, inferior e esquerda;
 3. Usando as propriedades específicas para cada lado: 
@@ -86,3 +86,55 @@ Algumas propriedades para estilizar elementos:
     - **padding-right**
     - **padding-bottom**
     - **padding-left**
+
+**BACKGROUND** : atalho para várias outras propriedades como:
+- **background-color** : altera a cor de fundo;
+- **background-image** : insere uma imagem de fundo;
+- **background-position** : altera o posicionamento de um background inserido.
+
+Algumas formas diferentes de alterar a cor de fundo são:
+1. **background-color: <nome_da_cor>**;
+2. **background-color: <codigo_hexadecimal_da_cor>**;
+3. **background: <nome_da_cor>**.
+
+**BORDER** : pode receber três valores (largura, cor e estilo - nesta ordem).
+- Largura: pixels, centímetros, milímetros...
+- Cor: nome da cor, código hexadecimal da cor...
+- Estilo: sólida, pontilhada, tracejada...
+
+Podemos usar propriedades específicas para cada lado da borda:
+- **border-top**
+- **border-right**
+- **border-bottom**
+- **border-left**
+
+Caso as características da borda sejam as mesmas para todos os lados, podemos utilizar a propriedade de duas maneiras diferentes:
+1. Utilizando apenas a propriedade **border** com os três valores, por exemplo:
+    - **border: 3px solid #505050;**
+2. Utilizando as três propriedades específicas:
+    - **border-width: 3px;**
+    - **border-style: solid;**
+    - **border-color: #505050;**
+
+Podemos criar regras mais específicas ainda definindo os lados e os aspects da borda, como por exemplo em:
+- **border-top-width: 3px;**
+- **border-top-style: solid;**
+- **border-top-color: #505050;**
+
+**BORDER-RADIUS** : permite arredondar os cantos de um elemento (unidades mais comuns são Pixels e Porcentagem). Exemplos:
+- **border-radius: 10px** : aplica arredondamento de 10px nos quatro cantos do elemento;
+- **border-radius: 50%** : aplica arredondamento de 50% nos quatro cantos do elemento (curiosidade: neste caso, um quadrado é transformado em um círculo);
+- **border-radius: 10% 20% 15% 22%** : aplica diferentes arredondamentos em cada canto do elemento, seguindo a mesma ordem que vimos em padding e margin: top, right, bottom, left;
+
+## 8 - Estilizando textos
+
+- **font-family** : altera a fonte do texto.
+    - Podemos atribuir mais de um valor à propriedade **font-family** para que, caso a primeira não esteja disponível no dispositivo, a próxima entre como backup, por exemplo:
+        - **font-family: Verdana, Arial;**
+
+- **font-size** : altera o tamanho do texto (não é a única disponível, mas a unidade que usaremos é o Pixel);
+
+- **font-style** : altera a aparência do texto (normal, itálico...);
+
+- **font-weight** : altera o "peso" do texto.
+    - Pode receber valores numéricos ou palavras chave indicando o peso, como **bold**.
