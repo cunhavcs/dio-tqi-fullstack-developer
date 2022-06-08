@@ -182,4 +182,4 @@ Principais paradigmas de programação:
     maneira;
     - Origem na necessidade de produzir programas de forma mais rápida, com maior confiabilidade e a um menor custo;
     - Apoia-se nas características de classe e objeto;
-    - Todos os objetos tem estados e cmportamentos.
+    - Todos os objetos têm estados e cmportamentos.
