@@ -138,3 +138,28 @@ Podemos criar regras mais específicas ainda definindo os lados e os aspects da 
 
 - **font-weight** : altera o "peso" do texto.
     - Pode receber valores numéricos ou palavras chave indicando o peso, como **bold**.
+
+- **text-transform** : altera o texto entre maiúsculas e minúsculas (lowercase, uppercase, capitalize).
+
+- **text-decoration** : usado para dar destaque  algum texto, colocando linhas (underline, overline, line-through)
+
+## 9 - Estilizando listas
+
+- **list-style-type** : altera o marcador da lista. Existem muitas opções tanto para listas ordenadas como não ordenadas.
+
+    - **upper-roman** : algarismo romano maiúsculo (para ol)
+
+    - **square** : altera o símbolo para um quadrado (para ul);
+    - **"\1F44D"** : altera para um símbolo, neste caso, um emoji de joinha (para ul);
+
+- **list-style-image**: utiliza uma imagem como marcador para ul. Exemplo:
+    - **url("imagem.png")**.
+
+## 10 - Dimensão e Alinhamento
+
+- **width** : ajuste da largura;
+- **height** : ajuste da altura;
+- **max-wigth** : ajuste da largura máxima que um elemento pode ter;
+- **max-height** : ajuste da altura máxima que um elemento pode ter;
+- **margin** : ajuste do espaçamento entre elementos;
+- **text-align** : ajuste do alinhamento de textos;
