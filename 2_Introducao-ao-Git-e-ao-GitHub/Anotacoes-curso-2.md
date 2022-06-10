@@ -68,8 +68,8 @@ Outros comandos iniciais:
 - **git commit -m "mensagem"** : cria uma nova versão do repositório (localmente) considerando as últimas alterações.
 
 ## 5 - Introdução ao GitHub e outros comandos Git
-- **git config global user.email "email@email.com"** : configura globalmente o email informado para o git na máquina.
-- **git config global user.name "name"** : configura globalmente o name informado para o git na máquina.
+- **git config --global user.email "email@email.com"** : configura globalmente o email informado para o git na máquina.
+- **git config --global user.name "name"** : configura globalmente o name informado para o git na máquina.
 - **git config --list** : mostra as configurações do Git na máquina;
 - **git remote -v** : lista os repositórios remotos que tenho cadastrado;
 - **git remote add origin <endereço_repo_remoto>** : aponta para o repositório remoto;
