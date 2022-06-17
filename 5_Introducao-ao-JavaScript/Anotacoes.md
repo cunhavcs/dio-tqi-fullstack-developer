@@ -24,3 +24,26 @@
 - Games;
 - Internet of Things;
 - APIs.
+
+## 2 - Recursos básicos da linguagem
+
+### 2.1 - Comentários
+- Para comentários de uma linha, utilizar duas barras à esquerda **//**
+- Para comentários de várias linhas, utilizar barra e asterísco à esquerda para iniciar **/*** e asterísco e barra à direita para encerrar ***/**
+- Atalho no VS Code: ctrl + /
+
+### 2.2 - Variáveis e constantes
+- **Variável:** espaço reservado na memória para armazenamento de um valor que pode ser alterado após a atribuição inicial;
+- **Constante:** idem à Variável com a diferença de que o valor não pode variar após a atribuição inicial. 
+
+### 2.3 - Funções
+- São blocos de código que realizam uma tarefa específica;
+- Para declarar usa-se a palavra reservada "function", em seguida o nome da função, os parâmetros de entrada entre parênteses, o bloco de código referente ao que a função deve retornar (utilizando a palavra reservada "return") entre chaves. Por exemplo:
+
+function soma (a, b) {
+    return a + b;
+}
+- Para invocar a função, usa-se o nome da função, seguida dos valores dos parâmetros entre parênteses. Por exemplo:
+
+soma (5, 3);
+
